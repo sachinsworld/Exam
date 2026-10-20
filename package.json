@@ -1,0 +1,11 @@
+{
+  "name": "granth-academic-platform",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Granth academic preparation, practice and assessment platform",
+  "main": "server.js",
+  "scripts": {"start": "node server.js", "check": "node --check server.js && node --check public/js/app.js", "test": "node --test"},
+  "engines": {"node": ">=20"},
+  "optionalDependencies": {"mongodb": "^6.8.0"},
+  "license": "UNLICENSED"
+}
